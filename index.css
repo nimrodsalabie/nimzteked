@@ -1,0 +1,367 @@
+@charset "utf-8";
+/* CSS Document */
+
+html,body{
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+
+::-webkit-scrollbar{
+	width: 10px;
+	scroll-behavior: smooth;
+}
+::-webkit-scrollbar-thumb{
+	border-radius: 10px;
+	background: #e97367;
+}
+::-webkit-scrollbar-track{
+	background: #F3F3F3;
+}
+
+a{
+	text-decoration: none;
+}
+
+
+
+#header{
+	width: 100%;
+	height: 60px;
+	position: fixed;
+	overflow: hidden;
+	transition: all 3s;
+	top: 0;
+	left: 0;
+	z-index: 20;
+}
+
+#navbg{
+	width: 100%;
+	height: 60px;
+	transition: all 0.5s;
+}
+
+.sectionpages{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+#logo{
+	width: 60px;
+	height: 60px;
+	margin-left: 10px;
+	background: url(logo.png) no-repeat center;
+	background-size: contain;
+}
+
+#landingscreen{
+	background: #f1f1f1;
+}
+
+#navlist{
+	height: 40%;
+	vertical-align:middle;
+	margin-right: 100px;
+	float: right;
+	list-style: none;
+	line-height: 25px;
+}
+
+#navlist li{
+	float: left;
+	margin-left: 25px;
+	font-size: 0.7vw;
+	color: #222222;
+	font-family: "Segoe UI";
+	font-style: bold;
+}
+#navlist #homebtn{
+	color: #e97367;
+	
+}
+
+#navlist li:hover{
+	color: #e97367;
+	cursor: pointer;
+	
+}
+
+#nimz1{
+	width: 500px;
+	height: 1000px;
+	background: url(nimzshadow.png) no-repeat center;
+	background-size: contain;
+	float: right;
+	transform: translateY(100px) translateX(60px);
+	
+}
+
+#ntekhold{
+	width: 120%;
+	height: 400px;
+	float: left;
+	transform: translateX(-780px) translateY(130px);
+	padding: 30px;
+	overflow: hidden;
+	
+	
+}
+
+#ntekword{
+	width: 100%;
+	height: 30%;
+	background: url(nimztekword.png) no-repeat center;
+	background-size: contain;
+}
+
+#ntekdes{
+	font-family:  Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	width: 90%;
+	transform: translateY(130px) translateX(30px);
+	color: #222222;
+	font-size: 0.8vw;
+	text-align: center;
+	text-transform: uppercase;
+	
+}
+
+#readmorebtn1{
+	width: 50%;
+	height: 40px;
+	font-family: "Segoe UI";
+	text-transform: uppercase;
+	color: #f1f1f1;
+	font-size: 0.8vw;
+	background: #e97367;
+	align-self: center;
+	margin-left: 100px;
+	transform: translateY(75px) translateX(50px);
+	border: none;
+}
+
+#landingscreen a, #library a, #bookofdesign a{
+	text-decoration: none;
+	color: #f1f1f1;
+}
+
+#readmorebtn1:hover, #librarybtn1:hover, #bodbtn1:hover{
+	 background: #222222;
+	 cursor: pointer;
+}
+
+#bodword{
+	width: 50%;
+	height: 40%;
+	background: url(bookofdesign.png) no-repeat center;
+	background-size: contain;
+	transform: translateY(50px) translateX(420px);
+}
+
+#bod1{
+	width: 100%;
+	height: 100%;
+	background: url(bod1.png) no-repeat center;
+	background-size: contain;
+	transform: translateY(400px) translateX(0px);
+}
+#bod2{
+	width: 50%;
+	height: 50%;
+	background: url(bod2.png) no-repeat center;
+	background-size: contain;
+	transform: translateY(-400px) translateX(-350px);
+}
+
+#bod3{
+	width: 110%;
+	height: 110%;
+	background: url(bod3.png) no-repeat center;
+	background-size: contain;
+	transform: translateY(400px) translateX(1000px);
+}
+
+#bod4{
+	width: 50%;
+	height: 50%;
+	background: url(bod4.png) no-repeat center;
+	background-size: contain;
+	transform: translateY(-350px) translateX(100px);
+}
+
+#bod5{
+	width: 260%;
+	height: 260%;
+	background: url(bod5.png) no-repeat center;
+	background-size: contain;
+	transform: translateY(180px) translateX(-540px);
+}
+
+#bodbtn1{
+	width: 180%;
+	height: 40px;
+	font-family: "Segoe UI";
+	text-transform: uppercase;
+	color: #f1f1f1;
+	font-size: 0.8vw;
+	background: #e97367;
+	align-self: center;
+	margin-left: 100px;
+	transform: translateY(200px) translateX(-650px);
+	border: none;
+}
+
+
+
+#library,#tutorials,#contactus{
+	background: #f1f1f1;
+	overflow: hidden;
+	/*box-shadow: 0px 0px 5px rgba(0,0,0,0.2);*/
+}	
+
+#library1{
+	width: 700px;
+	height: 800px;
+	background: url(library2.png) no-repeat center;
+	background-size: contain;
+	float: right;
+	transform: translateY(200px) translateX(100px);
+	
+}
+#library2{
+	width: 700px;
+	height: 800px;
+	background: url(library1.png) no-repeat center;
+	background-size: contain;
+	
+	transform: translateY(-500px) translateX(50px);
+	
+}
+
+#library3{
+	width: 700px;
+	height: 800px;
+	background: url(library3.png) no-repeat center;
+	background-size: contain;
+	
+	transform: translateY(200px) translateX(-1000px);
+	
+}
+
+#libraryword{
+	width: 90%;
+	height: 30%;
+	background: url(library0.png) no-repeat center;
+	background-size: contain;
+	transform: translateY(300px) translateX(550px);
+}
+
+#librarybtn1{
+	width: 50%;
+	height: 40px;
+	font-family: "Segoe UI";
+	text-transform: uppercase;
+	color: #f1f1f1;
+	font-size: 0.8vw;
+	background: #e97367;
+	align-self: center;
+	margin-left: 100px;
+	transform: translateY(200px) translateX(40px);
+	border: none;
+}
+
+#nimz2{
+	width: 500px;
+	height: 1000px;
+	background: url(about1.png) no-repeat center;
+	background-size: contain;
+	float: right;
+	transform: translateY(100px) translateX(60px);
+	
+}
+
+#aboutusword{
+	width: 700px;
+	height: 1000px;
+	background: url(aboutusword.png) no-repeat center;
+	background-size: contain;
+	transform: translateY(-200px) translateX(-700px);
+	
+}
+
+#aboutusbtn1{
+	width: 50%;
+	height: 40px;
+	font-family: "Segoe UI";
+	text-transform: uppercase;
+	color: #f1f1f1;
+	font-size: 0.8vw;
+	background: #e97367;
+	align-self: center;
+	transform: translateY(620px) translateX(180px);
+	border: none;
+}
+
+#aboutusbtn1:hover{
+	background: #222222;
+	cursor: pointer;
+}
+
+#footer{
+	width: 100%;
+	height: 30%;
+	overflow: hidden;
+	background: #e97367;
+}
+#navlist2{
+	margin-top: 3px;
+	height: 40%;
+	vertical-align:middle;
+	margin-left: 700px;
+	float: left;
+	list-style: none;
+	line-height: 25px;
+}
+
+#navlist2 li{
+	
+	margin-top: 5px;
+	font-size: 0.9vw;
+	color: #f1f1f1;
+	font-family: "Segoe UI";
+	font-style: bold;
+	text-align: center;
+}
+#navlist2 #homebtn2{
+	color: #222222;
+	
+}
+
+#navlist2 li:hover{
+	color: #222222;
+	cursor: pointer;
+	
+}
+
+#nimztekword2{
+	width: 50%;
+	height: 70%;
+	background: url(nimztekword2.png) no-repeat center;
+	background-size: contain;
+	margin-top: 2%;
+	margin-left: -10%;
+}
+
+#contactinfo{
+	width: 50%;
+	height: 100%;
+	background: url(contactword.png) no-repeat center;
+	background-size: contain;
+	margin-top:-10%;
+	margin-right: 5%;
+	float: right;
+	transform: translateX(245%);
+	
+}

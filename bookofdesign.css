@@ -1,0 +1,220 @@
+@charset "utf-8";
+/* CSS Document */
+
+html,body{
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+
+::-webkit-scrollbar{
+	width: 10px;
+	scroll-behavior: smooth;
+}
+::-webkit-scrollbar-thumb{
+	border-radius: 10px;
+	background: #e97367;
+}
+::-webkit-scrollbar-track{
+	background: #F3F3F3;
+}
+
+a{
+	text-decoration: none;
+}
+
+
+
+#header{
+	width: 100%;
+	height: 60px;
+	position: fixed;
+	overflow: hidden;
+	transition: all 3s;
+	top: 0;
+	left: 0;
+	z-index: 20;
+}
+
+#navbg{
+	width: 100%;
+	height: 60px;
+	transition: all 0.5s;
+}
+
+.sectionpages{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background: #f1f1f1;
+}
+
+#logo{
+	width: 60px;
+	height: 60px;
+	margin-left: 10px;
+	background: url(logo.png) no-repeat center;
+	background-size: contain;
+}
+
+
+#navlist{
+	height: 40%;
+	vertical-align:middle;
+	margin-right: 100px;
+	float: right;
+	list-style: none;
+	line-height: 25px;
+}
+
+#navlist li{
+	float: left;
+	margin-left: 25px;
+	font-size: 0.7vw;
+	color: #222222;
+	font-family: "Segoe UI";
+	font-style: bold;
+}
+#navlist #bodbtn{
+	color: #e97367;
+	
+}
+
+#navlist li:hover{
+	color: #e97367;
+	cursor: pointer;
+	
+}
+
+
+#bookofdesign a{
+	text-decoration: none;
+	color: #f1f1f1;
+}
+
+#bodbtn1:hover{
+	 background: #222222;
+	 cursor: pointer;
+}
+
+#bodword{
+	width: 50%;
+	height: 40%;
+	background: url(bookofdesign.png) no-repeat center;
+	background-size: contain;
+	transform: translateY(50px) translateX(420px);
+}
+
+#bod1{
+	width: 100%;
+	height: 100%;
+	background: url(bod1.png) no-repeat center;
+	background-size: contain;
+	transform: translateY(400px) translateX(0px);
+}
+#bod2{
+	width: 50%;
+	height: 50%;
+	background: url(bod2.png) no-repeat center;
+	background-size: contain;
+	transform: translateY(-400px) translateX(-350px);
+}
+
+#bod3{
+	width: 110%;
+	height: 110%;
+	background: url(bod3.png) no-repeat center;
+	background-size: contain;
+	transform: translateY(400px) translateX(1000px);
+}
+
+#bod4{
+	width: 50%;
+	height: 50%;
+	background: url(bod4.png) no-repeat center;
+	background-size: contain;
+	transform: translateY(-350px) translateX(100px);
+}
+
+#bod5{
+	width: 260%;
+	height: 260%;
+	background: url(bod5.png) no-repeat center;
+	background-size: contain;
+	transform: translateY(180px) translateX(-540px);
+}
+
+#bodbtn1{
+	width: 180%;
+	height: 40px;
+	font-family: "Segoe UI";
+	text-transform: uppercase;
+	color: #f1f1f1;
+	font-size: 0.8vw;
+	background: #e97367;
+	align-self: center;
+	margin-left: 100px;
+	transform: translateY(200px) translateX(-650px);
+	border: none;
+}
+
+
+
+
+#footer{
+	width: 100%;
+	height: 30%;
+	overflow: hidden;
+	background: #e97367;
+}
+#navlist2{
+	margin-top: 3px;
+	height: 40%;
+	vertical-align:middle;
+	margin-left: 700px;
+	float: left;
+	list-style: none;
+	line-height: 25px;
+}
+
+#navlist2 li{
+	
+	margin-top: 5px;
+	font-size: 0.9vw;
+	color: #f1f1f1;
+	font-family: "Segoe UI";
+	font-style: bold;
+	text-align: center;
+}
+#navlist2 #bodbtn2{
+	color: #222222;
+	
+}
+
+#navlist2 li:hover{
+	color: #222222;
+	cursor: pointer;
+	
+}
+
+#nimztekword2{
+	width: 50%;
+	height: 70%;
+	background: url(nimztekword2.png) no-repeat center;
+	background-size: contain;
+	margin-top: 2%;
+	margin-left: -10%;
+}
+
+#contactinfo{
+	width: 50%;
+	height: 100%;
+	background: url(contactword.png) no-repeat center;
+	background-size: contain;
+	margin-top:-10%;
+	margin-right: 5%;
+	float: right;
+	transform: translateX(245%);
+	
+}

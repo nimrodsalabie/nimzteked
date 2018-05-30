@@ -1,0 +1,354 @@
+@charset "utf-8";
+/* CSS Document */
+
+html,body{
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+
+::-webkit-scrollbar{
+	width: 10px;
+	scroll-behavior: smooth;
+}
+::-webkit-scrollbar-thumb{
+	border-radius: 10px;
+	background: #e97367;
+}
+::-webkit-scrollbar-track{
+	background: #F3F3F3;
+}
+
+a{
+	text-decoration: none;
+}
+
+
+
+#header{
+	width: 100%;
+	height: 60px;
+	position: fixed;
+	overflow: hidden;
+	transition: all 3s;
+	top: 0;
+	left: 0;
+	z-index: 20;
+}
+
+#navbg{
+	width: 100%;
+	height: 60px;
+	transition: all 0.5s;
+}
+
+.sectionpages{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+#navlist{
+	height: 40%;
+	vertical-align:middle;
+	margin-right: 100px;
+	float: right;
+	list-style: none;
+	line-height: 25px;
+}
+
+#navlist li{
+	float: left;
+	margin-left: 25px;
+	font-size: 0.7vw;
+	color: #222222;
+	font-family: "Segoe UI";
+	font-style: bold;
+}
+#navlist #homebtn{
+	color: #e97367;
+	
+}
+
+#navlist li:hover{
+	color: #e97367;
+	cursor: pointer;
+	
+}
+
+
+
+#library a{
+	text-decoration: none;
+	color: #f1f1f1;
+}
+
+#librarybtn1:hover{
+	 background: #222222;
+	 cursor: pointer;
+}
+
+
+#library{
+	background: #f1f1f1;
+	overflow: hidden;
+}	
+
+
+
+#library2{
+	width: 1000px;
+	height: 1000px;
+	background: url(library4.png) no-repeat center;
+	background-size: contain;
+	
+	transform: translateY(100px) translateX(750px);
+	
+}
+
+#library3{
+	width: 700px;
+	height: 800px;
+	background: url(library3.png) no-repeat center;
+	background-size: contain;
+	
+	transform: translateY(-150px) translateX(-750px);
+	
+}
+
+#libraryword{
+	width: 90%;
+	height: 30%;
+	background: url(library0.png) no-repeat center;
+	background-size: contain;
+	transform: translateY(300px) translateX(450px);
+}
+
+#librarybtn1{
+	width: 50%;
+	height: 40px;
+	font-family: "Segoe UI";
+	text-transform: uppercase;
+	color: #f1f1f1;
+	font-size: 0.8vw;
+	background: #e97367;
+	align-self: center;
+	margin-left: 100px;
+	transform: translateY(200px) translateX(40px);
+	border: none;
+}
+#footer{
+	width: 100%;
+	height: 30%;
+	overflow: hidden;
+	background: #e97367;
+}
+#navlist2{
+	margin-top: 3px;
+	height: 40%;
+	vertical-align:middle;
+	margin-left: 700px;
+	float: left;
+	list-style: none;
+	line-height: 25px;
+}
+
+#navlist2 li{
+	
+	margin-top: 5px;
+	font-size: 0.9vw;
+	color: #f1f1f1;
+	font-family: "Segoe UI";
+	font-style: bold;
+	text-align: center;
+}
+#navlist2 #librarybtn2{
+	color: #222222;
+	
+}
+
+#navlist2 li:hover{
+	color: #222222;
+	cursor: pointer;
+	
+}
+
+#nimztekword2{
+	width: 50%;
+	height: 70%;
+	background: url(nimztekword2.png) no-repeat center;
+	background-size: contain;
+	margin-top: 2%;
+	margin-left: -10%;
+}
+
+#contactinfo{
+	width: 50%;
+	height: 100%;
+	background: url(contactword.png) no-repeat center;
+	background-size: contain;
+	margin-top:-10%;
+	margin-right: 5%;
+	float: right;
+	transform: translateX(245%);
+	
+}
+
+.contenthold{
+	width: 100%;
+	/*border: 0.5px  #989898 solid;*/
+	height: 480px;
+	overflow: hidden;
+	padding: 0;
+	
+}
+
+.rowpages{
+	list-style: none;
+	width: 100%;
+	margin-left: -2.5%;
+}
+
+.items{
+	width: 20%;
+	float: left;
+	margin-left: 4%;
+	height: 480px;
+	
+}
+.posters:hover{
+	transform: scaleX(1.04) scaleY(1.04);
+	cursor: pointer;
+	
+}
+
+.posters{
+	width: 100%;
+	height: 420px;
+	
+	
+}
+
+.designers{
+	width: 100%;
+	float: right;
+	font-size: 0.8vw;
+	color: #222222;
+	font-family: "Segoe UI";
+	text-align: right;
+	height: 20px;
+}
+.posterhold{
+	overflow: hidden;
+}
+
+#row1 #poster1{
+	background: url(posters/buleandgold.png) no-repeat center;
+	background-size: contain;
+}
+
+#row1 #poster2{
+	background: url(posters/lifestyle.png) no-repeat center;
+	background-size: contain;
+}
+#row1 #poster3{
+	background: url(posters/milfishare.png) no-repeat center;
+	background-size: contain;
+}
+#row1 #poster4{
+	background: url(posters/redsexy.png) no-repeat center;
+	background-size: contain;
+}
+
+#row2 #poster1{
+	background: url(posters/crossroadinvationbright.jpg) no-repeat center;
+	background-size: contain;
+}
+#row2 #poster2{
+	background: url(posters/kerrbdayparty2.png) no-repeat center;
+	background-size: contain;
+}
+#row2 #poster3{
+	background: url(posters/kerrbirthdaybash.png)	 no-repeat center;
+	background-size: contain;
+}
+#row2 #poster4{
+	background: url(posters/wetkunash.png) no-repeat center;
+	background-size: contain;
+}
+
+#row3 #poster1{
+	background: url(posters/summerbeachparty.png) no-repeat center;
+	background-size: contain;
+}
+#row3 #poster2{
+	background: url(posters/colorrave.png) no-repeat center;
+	background-size: contain;
+}
+#row3 #poster3{
+	background: url(posters/siia.png) no-repeat center;
+	background-size: contain;
+}
+#row3 #poster4{
+	background: url(posters/cammiebosslady.png) no-repeat center;
+	background-size: contain;
+}
+
+#slider{
+	width: 100%;
+	height: 100%;
+	z-index: 25;
+	position: fixed;
+	visibility: hidden;
+	display: none;
+	background: rgba(0,0,0,0.8);
+}
+#slide{
+	width: 100%;
+	height: 100%;
+}
+
+.navbtns{
+	border: none;
+	color: #000000;
+	background: rgba(0,0,0,0);
+	width: 5%;
+	height: 20%;
+	font-size: 6vw;
+	position: fixed;
+	cursor: pointer;
+	z-index: 30;
+}
+#leftbutton{
+	transform: translateY(200%);
+}
+
+#rightbutton{
+	transform: translateY(200%) translateX(1900%);
+}
+
+#sposter1{
+	background: url(posters/buleandgold.png) no-repeat center;
+	background-size: contain;
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+#sposter2{
+	background: url(posters/milfishare.png) no-repeat center;
+	background-size: contain;
+	width: 100%;
+	height: 100%;
+	float: left;
+	transform: translateX(100%);
+}
+
+#sposter3{
+	background: url(posters/lifestyle.png) no-repeat center;
+	background-size: contain;
+	width: 100%;
+	height: 100%;
+	float: left;
+	transform: translateX(100%);
+}
