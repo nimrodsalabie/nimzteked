@@ -360,18 +360,3 @@ h1{
 }
 	
 }
-
-@media screen and (max-width: 1080px){
-	.sectionpages{
-	width: 100%;
-	height: 60%;
-	overflow: hidden;
-	background: #F1F1F1;
-}
-	.contextpages{
-	background: #ffffff;
-	width: 100%;
-	height: 40%;
-	overflow: hidden;
-}
-}
