@@ -6,6 +6,9 @@ html,body{
 	margin: 0;
 	width: 100%;
 	height: 100%;
+	font-family: "Segoe UI";
+	text-align: center;
+	font-size: 1vw;
 }
 
 ::-webkit-scrollbar{
@@ -24,7 +27,33 @@ a{
 	text-decoration: none;
 }
 
+button{
+	border: none;
+	color: #f1f1f1;
+	background: #e97367;
+	font-family: "Segoe UI";
+	text-transform: uppercase;
+	font-size: 0.8vw;
+	width: 30%;
+	height: 35px;
+	
+}
 
+button:hover{
+	background: #222222;
+	cursor: pointer;
+}
+
+h1{
+	font-size: 3vw;
+	color: #222222;
+	font-family: "Segoe UI";
+	text-align: center;
+}
+
+
+
+@media screen and (max-width: 1920px) and (max-height: 1080px){
 
 #header{
 	width: 100%;
@@ -41,12 +70,14 @@ a{
 	width: 100%;
 	height: 60px;
 	transition: all 0.5s;
+	
 }
 
 .sectionpages{
 	width: 100%;
 	height: 100%;
 	overflow: hidden;
+	background: #F1F1F1;
 }
 
 #logo{
@@ -58,16 +89,45 @@ a{
 }
 
 #landingscreen{
-	background: #f1f1f1;
+	background: url(landingpagebg.png) no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	
+}
+#bookofdesign{
+	background: url(bodbg2.png) no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+}
+#library{
+	background: url(librarybg2.png) no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+}
+#aboutus{
+	background: url(aboutbg.png) no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
 }
 
 #navlist{
 	height: 40%;
 	vertical-align:middle;
-	margin-right: 100px;
+	margin-right: 5%;
 	float: right;
 	list-style: none;
 	line-height: 25px;
+}
+
+.contextpages{
+	background: #ffffff;
+	width: 100%;
+	height: 50%;
+	overflow: hidden;
 }
 
 #navlist li{
@@ -76,7 +136,6 @@ a{
 	font-size: 0.7vw;
 	color: #222222;
 	font-family: "Segoe UI";
-	font-style: bold;
 }
 #navlist #homebtn{
 	color: #e97367;
@@ -89,32 +148,14 @@ a{
 	
 }
 
-#nimz1{
-	width: 500px;
-	height: 1000px;
-	background: url(nimzshadow.png) no-repeat center;
-	background-size: contain;
-	float: right;
-	transform: translateY(100px) translateX(60px);
-	
-}
-
-#ntekhold{
-	width: 120%;
-	height: 400px;
-	float: left;
-	transform: translateX(-780px) translateY(130px);
-	padding: 30px;
-	overflow: hidden;
-	
-	
-}
 
 #ntekword{
-	width: 100%;
-	height: 30%;
-	background: url(nimztekword.png) no-repeat center;
+	width: 40%;
+	height: 50%;
+	background: url(nimztekword3.png) no-repeat center;
 	background-size: contain;
+	margin-left: 20%;
+	margin-top: 11%;
 }
 
 #ntekdes{
@@ -129,17 +170,6 @@ a{
 }
 
 #readmorebtn1{
-	width: 50%;
-	height: 40px;
-	font-family: "Segoe UI";
-	text-transform: uppercase;
-	color: #f1f1f1;
-	font-size: 0.8vw;
-	background: #e97367;
-	align-self: center;
-	margin-left: 100px;
-	transform: translateY(75px) translateX(50px);
-	border: none;
 }
 
 #landingscreen a, #library a, #bookofdesign a{
@@ -160,95 +190,34 @@ a{
 	transform: translateY(50px) translateX(420px);
 }
 
-#bod1{
-	width: 100%;
-	height: 100%;
-	background: url(bod1.png) no-repeat center;
-	background-size: contain;
-	transform: translateY(400px) translateX(0px);
-}
 #bod2{
-	width: 50%;
-	height: 50%;
+	width: 20%;
+	height: 20%;
 	background: url(bod2.png) no-repeat center;
 	background-size: contain;
-	transform: translateY(-400px) translateX(-350px);
+	margin-top: 5%;
 }
 
-#bod3{
-	width: 110%;
-	height: 110%;
-	background: url(bod3.png) no-repeat center;
-	background-size: contain;
-	transform: translateY(400px) translateX(1000px);
-}
 
-#bod4{
-	width: 50%;
-	height: 50%;
-	background: url(bod4.png) no-repeat center;
-	background-size: contain;
-	transform: translateY(-350px) translateX(100px);
-}
-
-#bod5{
-	width: 260%;
-	height: 260%;
-	background: url(bod5.png) no-repeat center;
-	background-size: contain;
-	transform: translateY(180px) translateX(-540px);
-}
 
 #bodbtn1{
-	width: 180%;
+	width: 30%;
 	height: 40px;
 	font-family: "Segoe UI";
 	text-transform: uppercase;
 	color: #f1f1f1;
 	font-size: 0.8vw;
-	background: #e97367;
 	align-self: center;
-	margin-left: 100px;
-	transform: translateY(200px) translateX(-650px);
-	border: none;
 }
 
 
 
-#library,#tutorials,#contactus{
+#tutorials,#contactus{
 	background: #f1f1f1;
 	overflow: hidden;
 	/*box-shadow: 0px 0px 5px rgba(0,0,0,0.2);*/
 }	
 
-#library1{
-	width: 700px;
-	height: 800px;
-	background: url(library2.png) no-repeat center;
-	background-size: contain;
-	float: right;
-	transform: translateY(200px) translateX(100px);
-	
-}
-#library2{
-	width: 700px;
-	height: 800px;
-	background: url(library1.png) no-repeat center;
-	background-size: contain;
-	
-	transform: translateY(-500px) translateX(50px);
-	
-}
-
-#library3{
-	width: 700px;
-	height: 800px;
-	background: url(library3.png) no-repeat center;
-	background-size: contain;
-	
-	transform: translateY(200px) translateX(-1000px);
-	
-}
 
 #libraryword{
 	width: 90%;
@@ -259,27 +228,14 @@ a{
 }
 
 #librarybtn1{
-	width: 50%;
+	width: 30%;
 	height: 40px;
 	font-family: "Segoe UI";
 	text-transform: uppercase;
-	color: #f1f1f1;
 	font-size: 0.8vw;
 	background: #e97367;
 	align-self: center;
-	margin-left: 100px;
-	transform: translateY(200px) translateX(40px);
 	border: none;
-}
-
-#nimz2{
-	width: 500px;
-	height: 1000px;
-	background: url(about1.png) no-repeat center;
-	background-size: contain;
-	float: right;
-	transform: translateY(100px) translateX(60px);
-	
 }
 
 #aboutusword{
@@ -364,4 +320,58 @@ a{
 	float: right;
 	transform: translateX(245%);
 	
+}
+
+#profilehold{
+	display: grid;
+	grid-auto-rows: 200px;
+	grid-template-columns: repeat(2, 0.3fr);
+	grid-column-gap: 20em;
+	justify-content: center;
+	
+}
+.personreadmore{
+	width: 60%;
+	margin-left: 0%;
+}
+
+#statshold{
+	display: grid;
+	grid-auto-rows: 200px;
+	grid-template-columns: repeat(5, 0.15fr);
+	grid-column-gap: 5em;
+	justify-content: center;
+	
+	
+}
+
+.statspic{
+	width: 100%;
+	height: 150px;
+	background: #222222;
+	border-radius: 100px;
+	
+}
+
+.sinfohold{
+	justify-content: center;
+	font-size: 1vw;
+	
+}
+	
+}
+
+@media screen and (max-width: 1080px) and (max-height: 3600px){
+	.sectionpages{
+	width: 100%;
+	height: 60%;
+	overflow: hidden;
+	background: #F1F1F1;
+}
+	.contextpages{
+	background: #ffffff;
+	width: 100%;
+	height: 40%;
+	overflow: hidden;
+}
 }
